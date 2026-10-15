@@ -1,0 +1,32 @@
+- generic [ref=e3]:
+    - generic [ref=e4]:
+        - generic [ref=e5]:
+            - button "Open…" [disabled] [ref=e6]
+            - button "Save" [disabled] [ref=e7]
+            - button "Save As…" [disabled] [ref=e8]
+        - generic [ref=e10]:
+            - button "⟲ Rotate L" [disabled] [ref=e11]
+            - button "⟳ Rotate R" [disabled] [ref=e12]
+            - button "🗑 Delete Page(s)" [disabled] [ref=e13]
+            - button "+ Blank Page" [disabled] [ref=e14]
+            - button "⇄ Merge PDF…" [disabled] [ref=e15]
+        - generic [ref=e17]:
+            - button "🖼 Insert Image…" [disabled] [ref=e18]
+            - button "T Add Text" [disabled] [ref=e19]
+            - generic [ref=e20]:
+                - text: Size
+                - spinbutton "Size" [ref=e21]: "14"
+        - button "Form Fields" [disabled] [ref=e24]
+        - generic [ref=e25]:
+            - button "−" [ref=e26] [cursor=pointer]
+            - generic [ref=e27]: 125%
+            - button "+" [ref=e28] [cursor=pointer]
+            - button "Fit Width" [ref=e29] [cursor=pointer]
+            - button "‹" [disabled] [ref=e31]
+            - spinbutton [ref=e32]: "1"
+            - generic [ref=e33]: / 0
+            - button "›" [disabled] [ref=e34]
+    - complementary [ref=e36]
+    - generic [ref=e39]:
+        - generic [ref=e40]: Open a PDF to get started.
+        - generic [ref=e41]: sample.pdf

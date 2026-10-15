@@ -1,0 +1,13 @@
+{
+  "default": {
+    "identifier": "default",
+    "description": "Default capability for the main window: native dialogs and full file read/write access.",
+    "local": true,
+    "windows": ["main"],
+    "permissions": [
+      "dialog:default",
+      { "identifier": "fs:allow-read-file", "allow": [{ "path": "**" }] },
+      { "identifier": "fs:allow-write-file", "allow": [{ "path": "**" }] }
+    ]
+  }
+}
